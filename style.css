@@ -254,7 +254,9 @@ body {
     text-align: center;
 }
 
-/* responsive */
+/* Responsiveness */
+
+/* Laptop  (1024px)*/ 
 
 @media screen and (max-width: 1040px) {
 .main-container {
@@ -266,12 +268,56 @@ body {
 }
 }
 
+/* Ipad Air  (820px)*/ 
+
 @media screen and (max-width: 830px) {
-    .main {
+
+    .main img{
         display: none;
+    }
     
+    .form-container{
+        margin-left: 70px;
+        margin-top: 150px;
     }
     }
+
+
+/* IPhone XR  (414px)*/ 
+
+@media screen and (max-width: 420px) {
+
+    .main img{
+        display: none;
+    }
+
+    .main-container{
+        margin: 0px;
+    }
+    
+    .form-container{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .box {
+        border: 0px;
+        background-color: var(--body-background);
+        border-radius: 0px;
+    }
+    .goto{
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .app-download {
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+    }
+
+    }
+        
+
+    
     
 
 
